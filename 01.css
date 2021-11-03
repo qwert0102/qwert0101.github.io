@@ -1,5 +1,31 @@
-*{
-    margin: 0  ;
+* {
+    margin: 0;
     padding: 0;
+    list-style: none;
     box-sizing: border-box;
+}
+
+img {
+    height: 200px;
+    weight: 200px;
+}
+
+.img-start {
+    border: 2px solid mediumspringgreen;
+}
+
+#img-master {
+    border: 3px dashed yellowgreen;
+}
+.relative{
+    margin-left: 20px;
+    background: seagreen;
+    width: 1000px;
+    height: 1000px;
+}
+
+.absolute{
+    background: darkslategray;
+    width: 100px;
+    height: 100px;
 }
